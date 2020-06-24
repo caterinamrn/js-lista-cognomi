@@ -8,6 +8,6 @@ var cognomeUtente = prompt("Inserire il proprio cognome");
 
 for (var i = 0; i < lista.length; i++) {
   if (cognomeUtente == lista[i]) {
-    console.log("la posizione del cognome dell'utente è: ",i+1);
+    console.log("la posizione del cognome dell'utente è: ",i);
   }
 }
